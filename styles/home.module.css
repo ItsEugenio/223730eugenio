@@ -1,0 +1,11 @@
+.Contimg{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.mainHome{
+    background-color: #e5e5e5;
+}
+.mainP{
+    padding: 20px;
+}

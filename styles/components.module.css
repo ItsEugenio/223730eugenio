@@ -1,0 +1,165 @@
+.linknav{
+    color: #00a6fb;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.titulo{
+    letter-spacing: 3px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.subtitulo{
+    font-size: 20px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 5px;
+}
+.bantit{
+    font-size: 30px;
+}
+.subtext{
+    font-size: 20px;
+}
+.prese{
+  
+    text-align: center;
+}
+.contenidoP{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.titPre{
+    font-size: 40px;
+}
+
+.conteCard{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    width: 100%;
+}
+.linkCard{
+    border: 1px solid;
+    width: 5em;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 1s all ease;
+}
+.linkA{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.card{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    transition: 1s all ease;
+    margin-bottom: 70px;
+}
+.titCard{
+    font-size: 30px;
+}
+.subCard{
+    font-size: 18px;
+}
+.card:hover {
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+  }
+  .linkCard:hover{
+    color: #00a6fb;
+    width: 7em;
+    font-size: 30px;
+  }
+  .linkA:hover{
+    color: #00a6fb;
+    font-weight: bold;
+  }
+
+.contEjes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.subEje{
+    font-size: 20px;
+}
+.ejeImg{
+    display: flex;
+    justify-content: center;
+}
+.galeria{
+  
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.galeriaCard{
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+    width: 30%;
+    margin: 10px;
+}
+.contInfo{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.contRepre{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 620px) {
+    .contEjes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .card{
+        width: 50%;
+    }   
+    .bannerCard{
+        width: 70%;
+        height: 70%;
+    }
+    .galeria{
+        display: flex;
+        flex-direction: column;
+    }
+    .galeriaCard{
+        display: flex;
+
+        width: 100%;
+    }
+}
